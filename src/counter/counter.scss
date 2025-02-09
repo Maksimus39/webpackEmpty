@@ -1,0 +1,39 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px groove orangered;
+  border-radius: 10px;
+  width: 200px;
+  align-self: center;
+  margin: 100px auto;
+  background-color: bisque;
+}
+
+.counter-value {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  background-color: #8c8ba1;
+  border-radius: 10px;
+}
+
+.counter-btn-block {
+  display: flex;
+  gap: 10px;
+}
+
+.counter-btn-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 10px;
+}
